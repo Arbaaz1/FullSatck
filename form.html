@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+   <center> <h1><u>My Bio-Data</u></h1></center>
+    <fieldset>
+         <legend><h3>Personal Information</h3></legend>
+        <form action="/action_page.php">
+           <label for="firstname">FirstName: </label></b>
+            <input type="text" placeholder="First Name" id="firstname"></br></br>
+            <label for="lastname">LastName: </label></b>
+            <input type="text" placeholder="Last Name" id="lastname">
+            <br>
+            <br>
+            Male:
+            <input type="radio" name="gender">
+            Female:
+            <input type="radio" name="gender">
+            Other:
+            <input type="radio" name="gender">
+            <br>
+            <br>
+            <label for="dateofbirth">Date of Birth :</label>
+            <input type="date" id="dateofbirth">
+            <br>
+            <br>
+            <label for="email">E-Mail : </label>
+            <input type="email" placeholder="Enter Your Email" id="email">
+            <br>
+            <br>
+            <label for="phone">Phone</label>
+            <input type="number" placeholder="+91" id="phone">
+            <br>
+            <br>
+           
+        
+    </fieldset>
+    <fieldset>
+        <legend><h3>Education</h3></legend>
+        
+            <label for="schoolname">School Name :</label>
+            <input type="text" placeholder="School Name" id="schoolname">
+            <br>
+            <br>
+            <label for="class">Class :</label>
+            <input type="text" placeholder="Enter Class" id="class">
+            <br>
+            <br>
+            <label for="stream">Stream :</label>
+            <select id="stream">
+                <option value="">Stream</option>
+                <option value="">Medical</option>
+                <option value="">Non-Medical</option>
+                <option value="">Commerce</option>
+            </select>
+            <br>
+            <br>
+           <label for="schoolname">10 Marks :</label>
+            <input type="text" placeholder="percentage" id="schoolname"></br></br>
+            <label for="schoolname">10+2 Marks:</label>
+            <input type="text" placeholder="percentage" id="schoolname"></br></br>
+       
+    </fieldset>
+    <br>
+    <p> <center> <button>Submit</button>
+     <input type="reset" value="Reset"></center></p>
+</form>
+    </body>
+</html>
